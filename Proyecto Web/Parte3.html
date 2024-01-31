@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Personajes y Trivia de Warcraft</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Opinión y Trivia sobre Warcraft</h1>
+        <img src="./multimedia/wow.jpg" width="60%" align="right"><br>
+        <p>Comparte tus pensamientos y prueba tus conocimientos sobre el universo de Warcraft.</p>
+    </header>
+    
+    <form action="Parte4.html" method="post">
+        
+                <!-- Información del Usuario -->
+                <h2>Información del Usuario</h2>
+        
+                <!-- Nombre -->
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <br>
+        
+                <!-- Correo Electrónico -->
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br>
+                <br>
+    
+        <!-- Preguntas de trivia -->
+        <h2>Trivia de Warcraft</h2>
+        
+        <!-- Pregunta 1 -->
+        <label for="dios_antiguo">1. Durante el reinado del Imperio Negro, ¿quién era considerado el Dios Antiguo más poderoso?</label><br>
+        <br>
+        <select id="dios_antiguo" name="dios_antiguo">
+            <option value="yogg-saron">Yogg-Saron</option>
+            <option value="yshaarj">Y'Shaarj</option>
+            <option value="cthun">C'Thun</option>
+            <option value="nzoth">N'Zoth</option>
+        </select><br>
+        <br>
+        <br>
+        <!-- Pregunta 2 -->
+        <label for="constructor_uldaman">2. ¿Quién fue el encargado de construir Uldaman?</label><br>
+        <br>
+        <select id="constructor_uldaman" name="constructor_uldaman">
+            <option value="hierraya">Hierraya</option>
+            <option value="archaeras">Archaeras</option>
+            <option value="tyr">Tyr</option>
+            <option value="thorim">Thorim</option>
+        </select><br>
+        <br>
+        <!-- Pregunta 3 -->
+        <label for="primera_vision_khadgar">3. La primera visión que tiene Khadgar durante su estancia en Karazhan, ¿dónde tiene lugar?</label><br>
+        <br>
+        <select id="primera_vision_khadgar" name="primera_vision_khadgar">
+            <option value="draenor">Draenor</option>
+            <option value="rasganorte">Rasganorte</option>
+            <option value="portal_oscuro">Portal Oscuro</option>
+            <option value="ventormenta">Ventormenta</option>
+        </select><br>
+        <br>
+        <!-- Pregunta 4 -->
+        <label for="dragon_aspecto_poderoso">4. ¿Quién es considerado el dragón Aspecto más poderoso (tras los sucesos de la segunda guerra)?</label><br>
+        <br>
+        <select id="dragon_aspecto_poderoso" name="dragon_aspecto_poderoso">
+            <option value="alexstrasza">Alexstrasza</option>
+            <option value="ysera">Ysera</option>
+            <option value="nozdormu">Nozdormu</option>
+            <option value="malygos">Malygos</option>
+            <option value="neltharion">Neltharion</option>
+        </select><br>
+        <br>
+        <!-- Botón de envío -->
+        <br>
+        <input type="submit" value="Enviar Respuestas">
+    </form>
+    <hr> <!-- Línea horizontal -->
+
+    <header>
+        <h1>Razas de World of Warcraft</h1>
+        <p>A continuación, se presentan algunas de las razas jugables en el mundo de Warcraft junto con sus características principales.</p>
+    </header>
+    <!-- Razas de la Alianza -->
+    <ul>
+        
+        <li>
+            <h2>Humanos</h2>
+            <p>Son los típicos seres humanos de los MMORPG. Tienen parámetros equilibrados. Clases comunes: Paladines, Sacerdotes.</p>
+        </li>
+        <img src="./multimedia/personajes.jpg" alt="Imagen de Razas" width="60%" align="right"><br>
+        <li>
+            <h2>Enanos</h2>
+            <p>Son más bajos y más gordos que los humanos y siempre tienen barba. Tienen agilidad y vitalidad. Clases comunes: Cazadores, Guerreros.</p>
+        </li>
+        <li>
+            <h2>Gnomos</h2>
+            <p>Son los más bajos y tienen mucha inteligencia. Suelen ser Magos, Brujos o Pícaros. Clases comunes: Magos, Brujos, Pícaros.</p>
+        </li>
+        <li>
+            <h2>Elfos Nocturnos</h2>
+            <p>Tienen muchísima agilidad. Son muy altos y de color violeta. Muy comunes los Cazadores, los Druidas y los Pícaros. Clases comunes: Cazadores, Druidas, Pícaros.</p>
+        </li>
+        <li>
+            <h2>Draenei</h2>
+            <p>(Sólo con World of Warcraft: The Burning Crusade). Gozan de buena fuerza y muy buen espíritu pero no se puede descartar su inteligencia. Son grandes y azulados. Sus clases más comunes son el Paladín y el Sacerdote. Clases comunes: Paladines, Sacerdotes.</p>
+        </li>
+        <li>
+            <h2>Huargen</h2>
+            <p>(Sólo con World of Warcraft: Cataclysm). Poseen bastante fuerza y agilidad, acompañado por algo de espíritu y vitalidad. Clases comunes: Varía.</p>
+        </li>
+        <li>
+            <h2>Pandaren</h2>
+            <p>(Sólo con World of Warcraft: Mists of Pandaria). Los Pandaren son una raza neutral que puede elegir unirse a la Alianza o la Horda. Su elección de facción determina sus clases disponibles. Clases comunes: Varía.</p>
+        </li>
+    </ul>
+    
+    <!-- Razas de la Horda -->
+    <ul>
+        <li>
+            <h2>Orcos</h2>
+            <p>Dotados de mucha fuerza y mediana vitalidad, estas criaturas verdosas son comúnmente elegidas como Guerreros y en ocasiones Chamanes. Clases comunes: Guerreros, Chamanes.</p>
+        </li>
+        <li>
+            <h2>Trolls</h2>
+            <p>Familiares de los Elfos de la noche, estos seres altos pero encorvados y con unos enormes colmillos en la boca parecidos a los de los elefantes tienen mucha agilidad. Muchos son Chamanes y Cazadores. Clases comunes: Chamanes, Cazadores.</p>
+        </li>
+        <li>
+            <h2>Renegados</h2>
+            <p>No-muertos con buena inteligencia y espíritu. La mayoría son Brujos, Sacerdotes y Magos. Clases comunes: Brujos, Sacerdotes, Magos.</p>
+        </li>
+        <li>
+            <h2>Taurens</h2>
+            <p>Son bóvidos gigantes que caminan a dos extremidades. Su vitalidad es enorme y su fuerza también. Suelen ser Chamanes, Druidas y Guerreros. Clases comunes: Chamanes, Druidas, Guerreros.</p>
+        </li>
+        <li>
+            <h2>Elfos de Sangre</h2>
+            <p>(Sólo con World of Warcraft: The Burning Crusade). Son elfos civilizados y muy parecidos a humanos, que tienen mucha agilidad, aparte de una destacable inteligencia. Son muy comunes los Paladines y Magos. Se ven pocos Brujos, Sacerdotes y Cazadores. Clases comunes: Paladines, Magos.</p>
+        </li>
+        <li>
+            <h2>Goblins</h2>
+            <p>(Sólo con World of Warcraft: Cataclysm). Pertenecen al Cártel Pantoque. Poseen una inteligencia y una agudeza solo comparable a la de los Gnomos. Clases comunes: Varía.</p>
+        </li>
+        <li>
+            <h2>Pandaren</h2>
+            <p>(Sólo con World of Warcraft: Mists of Pandaria). Los Pandaren son una raza neutral que puede elegir unirse a la Alianza o la Horda. Su elección de facción determina sus clases disponibles. Clases comunes: Varía.</p>
+        </li>
+    </ul>
+    <hr>
+    <h1> Opiniones respecto a los personajes </h1>
+    <br>
+        <h2>Malfurion Stormrage</h2>
+        <img src="./multimedia/onyxia.jpg" width="70%" align="right"><br>
+        <label for="malfurion_opinion">¿Qué opinas sobre Malfurion Stormrage?</label><br>
+        <textarea id="malfurion_opinion" name="malfurion_opinion" rows="4" cols="50"></textarea><br>
+        <!-- Illidan Stormrage -->
+        <h2>Illidan Stormrage</h2>
+        <label for="illidan_opinion">Comentarios sobre Illidan Stormrage:</label><br>
+        <textarea id="illidan_opinion" name="illidan_opinion" rows="4" cols="50"></textarea><br>
+
+        <!-- Tyrande Whisperwind -->
+        <h2>Tyrande Whisperwind</h2>
+        <label for="tyrande_opinion">Tus pensamientos sobre Tyrande Whisperwind:</label><br>
+        <textarea id="tyrande_opinion" name="tyrande_opinion" rows="4" cols="50"></textarea><br>
+
+        <!-- Arthas Menethil -->
+        <h2>Arthas Menethil</h2>
+        <label for="arthas_opinion">¿Cuáles son tus impresiones sobre Arthas Menethil?</label><br>
+        <textarea id="arthas_opinion" name="arthas_opinion" rows="4" cols="50"></textarea><br>
+
+        <!-- Sylvanas Windrunner -->
+        <h2>Sylvanas Windrunner</h2>
+        <label for="sylvanas_opinion">Opiniones acerca de Sylvanas Windrunner:</label><br>
+        <textarea id="sylvanas_opinion" name="sylvanas_opinion" rows="4" cols="50"></textarea><br>
+
+        <!-- Continuar con los demás personajes... -->
+        <br>
+        <!-- Botón de envío -->
+        <form action="Parte5.html" method="post">
+            <!-- Tu formulario actual aquí... -->
+            <input type="submit" value="Enviar Respuestas">
+        </form>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
