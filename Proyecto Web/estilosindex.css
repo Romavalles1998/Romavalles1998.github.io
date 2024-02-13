@@ -143,4 +143,8 @@ hr {
       flex-direction: column;
     }
   }
-  
+
+input{
+    width: 20px; 
+    height: 20px;
+}
