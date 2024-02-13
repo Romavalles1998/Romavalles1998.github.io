@@ -120,7 +120,6 @@ hr {
     background-color: #3e8e41;
 }
 
-/* Contenedor principal para simular resolución de 1920x1080 */
 .contenedor {
     width: 1920px;
     height: 1080px;
@@ -129,10 +128,19 @@ hr {
     overflow: hidden; 
 }
 
-/* Ajustes para diferentes resoluciones de pantalla usando media queries */
+
 @media screen and (min-width: 1920px) {
     .contenedor {
-        /* Ajusta la escala si es necesario para pantallas más grandes */
+        
         transform: scale(1);
     }
 }
+
+@media (max-width: 600px) {
+    nav.menu,
+    header,
+    section {
+      flex-direction: column;
+    }
+  }
+  

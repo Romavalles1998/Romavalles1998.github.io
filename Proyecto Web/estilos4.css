@@ -122,6 +122,15 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    nav.menu,
+    header,
+    section {
+      flex-direction: column;
+    }
+  }
+  
+
 .contenedor a {
     display: inline-block;
 }
