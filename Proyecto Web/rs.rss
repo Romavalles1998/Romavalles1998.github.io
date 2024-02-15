@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <title><![CDATA[Mundo de Warcraft]]></title>
-        <link>https://romavalles1998.github.io/Proyecto%20Web/</link>
-        <description>Las últimas noticias y actualizaciones sobre el mundo de Warcraft.</description>
-        <language>es-es</language>
+<channel>
+    <title><![CDATA[Mundo de Warcraft]]></title>
+    <link>https://romavalles1998.github.io/Proyecto%20Web/</link>
+    <description>Las últimas noticias y actualizaciones sobre el mundo de Warcraft.</description>
+    <language>es-es</language>
 
-        <item>
-            <title><![CDATA[Personajes de Warcraft]]></title>
-            <link>https://romavalles1998.github.io/Proyecto%20Web/Parte2.html</link>
-            <description>Personajes sobre la mítica saga de Warcraft, adentrate en esta emocionante aventura.</description>
-            <image url="./multimedia/warcraft.jpeg" medium="image" />
-        </item>
+    <item>
+        <title><![CDATA[Personajes de Warcraft]]></title>
+        <link>https://romavalles1998.github.io/Proyecto%20Web/Parte2.html</link>
+        <description>Personajes sobre la mítica saga de Warcraft, adentrate en esta emocionante aventura.</description>
+    </item>
 
-        <item>
-            <title><![CDATA[Trivia sobre Warcraft]]></title>
-            <link>https://romavalles1998.github.io/Proyecto%20Web/Parte3.html</link>
-            <description>Comparte tus pensamientos y prueba tus conocimientos sobre el universo Warcraft.</description>
-            <image url="./multimedia/trivia.jpeg" medium="image" />
-        </item>
+    <item>
+        <title><![CDATA[Trivia sobre Warcraft]]></title>
+        <link>https://romavalles1998.github.io/Proyecto%20Web/Parte3.html</link>
+        <description>Comparte tus pensamientos y prueba tus conocimientos sobre el universo Warcraft.</description>
+    </item>
 
-    </channel>
+</channel>
 </rss>
