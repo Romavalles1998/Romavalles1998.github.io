@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
     <title><![CDATA[Mundo de Warcraft]]></title>
     <link>https://romavalles1998.github.io/Proyecto%20Web/</link>
@@ -10,12 +10,15 @@
         <title><![CDATA[Personajes de Warcraft]]></title>
         <link>https://romavalles1998.github.io/Proyecto%20Web/Parte2.html</link>
         <description>Personajes sobre la mítica saga de Warcraft, adentrate en esta emocionante aventura.</description>
+        <image url="./multimedia/warcraft.jpeg" medium="image" />
+        </media:content>
     </item>
 
     <item>
         <title><![CDATA[Trivia sobre Warcraft]]></title>
         <link>https://romavalles1998.github.io/Proyecto%20Web/Parte3.html</link>
         <description>Comparte tus pensamientos y prueba tus conocimientos sobre el universo Warcraft.</description>
+            <image url="./multimedia/trivia.jpeg" medium="image" />
     </item>
 
 </channel>
