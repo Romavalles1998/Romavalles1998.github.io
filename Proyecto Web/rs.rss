@@ -10,12 +10,16 @@
         <title><![CDATA[Personajes de Warcraft]]></title>
         <link>https://romavalles1998.github.io/Proyecto%20Web/Parte2.html</link>
         <description>Personajes sobre la mítica saga de Warcraft, adentrate en esta emocionante aventura.</description>
+            <media:content url="./multimedia/warcraft.jpeg" medium="image">
+                </media:content>
     </item>
 
     <item>
         <title><![CDATA[Trivia sobre Warcraft]]></title>
         <link>https://romavalles1998.github.io/Proyecto%20Web/Parte3.html</link>
         <description>Comparte tus pensamientos y prueba tus conocimientos sobre el universo Warcraft.</description>
+            <media:content url="./multimedia/trivia.jpeg" medium="image">
+                </media:content>
     </item>
 
 </channel>
