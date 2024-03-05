@@ -53,7 +53,6 @@ select {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    /* Bordes redondeados */
     border: 1px solid #d4c06a;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -149,8 +148,6 @@ td {
     flex: 1 1 45%;
 }
 
-
-/* Contenedor principal para simular resolución de 1920x1080 */
 .contenedor {
     width: 1920px;
     height: 1080px;
@@ -164,15 +161,6 @@ td {
         transform: scale(1);
     }
 }
-
-@media (max-width: 600px) {
-    nav.menu,
-    header,
-    section {
-      flex-direction: column;
-    }
-  }
-  
 
 
 .nav {
@@ -204,4 +192,39 @@ td {
 
 .menu a:hover {
     text-decoration: underline;
+}
+@media (max-width: 768px) {
+    /* Ajustes para tamaños más pequeños */
+    .contenedor {
+        width: auto; /* Cambio para adaptarse a la anchura de la pantalla */
+        height: auto; /* Ajuste para que la altura sea automática */
+        transform: scale(1); /* Asegura que el contenedor no esté escalado */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 90%; /* Ajusta el ancho para la visualización en móviles */
+    }
+
+    .contenido-personaje, .opiniones-personaje {
+        flex-direction: column; /* Cambia la dirección para apilar verticalmente */
+    }
+
+    .imagen-personaje, .opiniones-personaje {
+        flex: 1 1 100%; /* Ajusta para tomar el ancho completo */
+    }
+
+    h1, h2, label, p {
+        text-align: left; /* Alineación de texto para mejorar la legibilidad */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Ajustes para tablets */
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 80%; /* Ampliar un poco más para tablets */
+    }
 }
