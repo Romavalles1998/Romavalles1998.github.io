@@ -27,7 +27,7 @@ Además, hice que la altura del contenedor se ajuste automáticamente según el 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Estilos4 y Estilos5 (Parte 4 y 5):
 
-Hice algunos retoques menores para mantener todo coherente y hacer que ciertos elementos respondan mejor al tamaño de la pantalla. Para que todo se vea bien y funcione correctamente
+Hice algunos retoques menores para mantener todo coherente y hacer que ciertos elementos respondan mejor al tamaño de la pantalla. Para que todo se vea bien y funcione correctamente.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Segunda Página Web (Solo CSS):
