@@ -3,11 +3,11 @@ Documentación de Cambios en el Estilo para "Web Responsive"
 Estilos (Hoja para Parte 3):
 🎨 Cambios Realizados para Mejorar el Diseño:
 
-Ahora los elementos de entrada y selectores de opción ocupan todo el ancho disponible en su contenedor padre, ¡para una vista perfecta en cualquier pantalla!
-Reduje el tamaño de letra de los títulos en dispositivos más pequeños, principalmente en teléfonos móviles, ¡se ve mucho mejor!
+Ahora los elementos de entrada y selectores de opción ocupan todo el ancho disponible en su contenedor padre, para una vista perfecta en cualquier pantalla.
+Reduje el tamaño de letra de los títulos en dispositivos más pequeños, principalmente en teléfonos móviles.
 Las columnas flexibles están bien ajustadas incluso en pantallas más pequeñas como tabletas y grandes teléfonos.
 Añadí un contenedor principal con un ancho máximo y margen automático para centrarlo en la página, ¡para una apariencia más ordenada!
-Hice algunos ajustes móviles específicos, ¡ahora parece más fluido y agradable en dispositivos móviles, siendo "Responsivo"!
+Hice algunos ajustes móviles específicos, ahora parece más fluido y agradable en dispositivos móviles, siendo "Responsivo".
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Estilos2 (Hoja 2):
